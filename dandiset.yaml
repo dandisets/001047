@@ -13,14 +13,11 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 19660870507
-  numberOfFiles: 83
-  numberOfSubjects: 16
+  numberOfBytes: 3275103604
+  numberOfFiles: 13
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
   species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
-    name: Rattus norvegicus - Norway rat
-    schemaKey: SpeciesType
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
