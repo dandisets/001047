@@ -51,6 +51,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-04T17:21:04.141576+00:00'
+datePublished: '2024-06-10T20:22:04.641181+00:00'
 description: This study enhanced the Next Generation (NG) CanCan protocols using MHz
   compression for electric pulse packet delivery. The NG CanCan protocol's packets
   were delivered at  0.2 MHz. Compared to the same protocol delivered at a 1 Hz frequency,
@@ -70,6 +71,18 @@ manifestLocation:
 name: Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near
   Electrode Ablation
 protocol: []
+publishedBy:
+  endDate: '2024-06-10T20:22:04.641181+00:00'
+  id: urn:uuid:e667b356-347f-4e23-9303-20f618dd5a00
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-06-10T20:22:04.641181+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:1aa1f797-f801-4241-8e59-cfa6ffddf533
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
