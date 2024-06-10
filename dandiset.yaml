@@ -13,9 +13,9 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 3275103604
-  numberOfFiles: 13
-  numberOfSubjects: 5
+  numberOfBytes: 14156734169
+  numberOfFiles: 54
+  numberOfSubjects: 12
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -24,7 +24,7 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Use of MHz
   Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near Electrode Ablation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/draft
+  (Version 0.240610.2022) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001047/0.240610.2022
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -60,14 +60,15 @@ description: This study enhanced the Next Generation (NG) CanCan protocols using
   utilized a four-electrode array. For cell permeabilization evaluation, YoPro-1 was
   used, and to assess cell death two hours post-protocol delivery, Propidium Iodide
   was used. This study was supported by NIH grant 1R21EY034258.
+doi: 10.48324/dandi.001047/0.240610.2022
 ethicsApproval: []
-id: DANDI:001047/draft
+id: DANDI:001047/0.240610.2022
 identifier: DANDI:001047
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001047/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001047/0.240610.2022/assets.yaml
 name: Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near
   Electrode Ablation
 protocol: []
@@ -88,8 +89,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001047/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001047/0.240610.2022
+version: 0.240610.2022
 wasGeneratedBy:
 - identifier: NIH 1R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
