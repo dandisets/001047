@@ -27,7 +27,7 @@ assetsSummary:
   variableMeasured: []
 citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Optimizing
   NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode Ablation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/draft
+  (Version 0.241211.1856) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001047/0.241211.1856
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -62,14 +62,15 @@ description: This study advanced the Next Generation (NG) CanCan protocols by im
   a four-electrode array, with YoPro-1 to evaluate cell permeabilization and Propidium
   Iodide to assess cell death two hours post-delivery. This work was supported by
   NIH grant 1R21EY034258.
+doi: 10.48324/dandi.001047/0.241211.1856
 ethicsApproval: []
-id: DANDI:001047/draft
+id: DANDI:001047/0.241211.1856
 identifier: DANDI:001047
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001047/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001047/0.241211.1856/assets.yaml
 name: Optimizing NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode
   Ablation
 protocol: []
@@ -90,8 +91,8 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001047/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001047/0.241211.1856
+version: 0.241211.1856
 wasGeneratedBy:
 - identifier: NIH 1R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
