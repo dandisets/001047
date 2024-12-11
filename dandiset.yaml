@@ -13,17 +13,20 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 3275103604
-  numberOfFiles: 13
-  numberOfSubjects: 5
+  numberOfBytes: 17250416220
+  numberOfFiles: 88
+  numberOfSubjects: 29
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10029
+    name: Cricetulus griseus - Cricetulus aureus
+    schemaKey: SpeciesType
   variableMeasured: []
-citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Use of MHz
-  Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near Electrode Ablation
+citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Optimizing
+  NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode Ablation
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/draft
 contributor:
 - affiliation: []
@@ -51,15 +54,14 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-06-04T17:21:04.141576+00:00'
-datePublished: '2024-06-10T20:22:04.641181+00:00'
-description: This study enhanced the Next Generation (NG) CanCan protocols using MHz
-  compression for electric pulse packet delivery. The NG CanCan protocol's packets
-  were delivered at  0.2 MHz. Compared to the same protocol delivered at a 1 Hz frequency,
-  the MHz compression significantly reduced the cell ablation area near the electrodes
-  while maintaining the same level of effect at the center. The experimental setup
-  utilized a four-electrode array. For cell permeabilization evaluation, YoPro-1 was
-  used, and to assess cell death two hours post-protocol delivery, Propidium Iodide
-  was used. This study was supported by NIH grant 1R21EY034258.
+datePublished: '2024-12-11T18:56:01.408053+00:00'
+description: This study advanced the Next Generation (NG) CanCan protocols by implementing
+  MHz compression for electric pulse packet delivery. Packets were delivered at 0.2
+  MHz, and the compression significantly reduced near-electrode cell ablation compared
+  to delivery at 1 Hz, while preserving effects at the center. The experiments used
+  a four-electrode array, with YoPro-1 to evaluate cell permeabilization and Propidium
+  Iodide to assess cell death two hours post-delivery. This work was supported by
+  NIH grant 1R21EY034258.
 ethicsApproval: []
 id: DANDI:001047/draft
 identifier: DANDI:001047
@@ -68,17 +70,17 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001047/versions/draft/assets/
-name: Use of MHz Compression ns Electric Pulse NG-CanCan Protocols to Minimize Near
-  Electrode Ablation
+name: Optimizing NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode
+  Ablation
 protocol: []
 publishedBy:
-  endDate: '2024-06-10T20:22:04.641181+00:00'
-  id: urn:uuid:e667b356-347f-4e23-9303-20f618dd5a00
+  endDate: '2024-12-11T18:56:01.408053+00:00'
+  id: urn:uuid:66b9cd54-2497-4916-bddc-89ab80e4529d
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-06-10T20:22:04.641181+00:00'
+  startDate: '2024-12-11T18:56:01.408053+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:1aa1f797-f801-4241-8e59-cfa6ffddf533
+  - id: urn:uuid:8acf2290-06fe-4c56-953c-3d00e0d273d3
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
