@@ -26,9 +26,9 @@ assetsSummary:
     name: Cricetulus griseus - Cricetulus aureus
     schemaKey: SpeciesType
   variableMeasured: []
-citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2024) Optimizing
+citation: Silkuniene, Giedre; Silkunas, Mantas; Pakhomov, Andrei (2025) Optimizing
   NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode Ablation
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001047/draft
+  (Version 0.250701.1609) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001047/0.250701.1609
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
@@ -54,8 +54,14 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- identifier: 0000-0002-0302-1355
+  name: Semenov, Iurii
+  schemaKey: Person
+- identifier: 0000-0003-4950-4130
+  name: Pakhomova, Olga
+  schemaKey: Person
 dateCreated: '2024-06-04T17:21:04.141576+00:00'
-datePublished: '2024-12-11T18:56:01.408053+00:00'
+datePublished: '2025-07-01T16:09:41.411542+00:00'
 description: This study advanced the Next Generation (NG) CanCan protocols by implementing
   MHz compression for electric pulse packet delivery. Packets were delivered at 0.2
   MHz, and the compression significantly reduced near-electrode cell ablation compared
@@ -63,36 +69,40 @@ description: This study advanced the Next Generation (NG) CanCan protocols by im
   a four-electrode array, with YoPro-1 to evaluate cell permeabilization and Propidium
   Iodide to assess cell death two hours post-delivery. This work was supported by
   NIH grant 1R21EY034258.
+doi: 10.48324/dandi.001047/0.250701.1609
 ethicsApproval: []
-id: DANDI:001047/draft
+id: DANDI:001047/0.250701.1609
 identifier: DANDI:001047
-keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001047/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001047/0.250701.1609/assets.yaml
 name: Optimizing NG-CanCan Protocol Delivery with MHz Compression to Minimize Near-Electrode
   Ablation
-protocol: []
 publishedBy:
-  endDate: '2024-12-11T18:56:01.408053+00:00'
-  id: urn:uuid:66b9cd54-2497-4916-bddc-89ab80e4529d
+  endDate: '2025-07-01T16:09:41.411542+00:00'
+  id: urn:uuid:f62c82f7-e752-4e89-87db-d30d327a15dc
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-12-11T18:56:01.408053+00:00'
+  startDate: '2025-07-01T16:09:41.411542+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:8acf2290-06fe-4c56-953c-3d00e0d273d3
+  - id: urn:uuid:65d82cf0-d28e-476a-869d-cb75f225fb77
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: doi.org/10.1016/j.bioelechem.2025.109016
+  name: MHz compression of pulse packets facilitates remote focusing of electroporation
+  relation: dcite:IsPublishedIn
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.bioelechem.2025.109016
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
-studyTarget: []
-url: https://dandiarchive.org/dandiset/001047/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001047/0.250701.1609
+version: 0.250701.1609
 wasGeneratedBy:
 - identifier: NIH 1R21EY034258
   name: Targeted Neuromodulation by Nanosecond Pulsed Electric Fields
